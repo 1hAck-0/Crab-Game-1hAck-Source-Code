@@ -62,7 +62,7 @@ namespace Cheat
 
 
 	using obscured_float = generic_item<0x14>;
-	auto GetObscuredFloat = [](float v)->obscured_float
+	inline auto GetObscuredFloat = [](float v)->obscured_float
 	{
 		void* __value = &v;
 		obscured_float* result = (obscured_float*)il2cpp::invoke(XorStr("ACTk.Runtime"),
@@ -75,7 +75,7 @@ namespace Cheat
 			nullptr);
 		return *result;
 	};
-	auto GetFloatFromOF = [](obscured_float v)->float
+	inline auto GetFloatFromOF = [](obscured_float v)->float
 	{
 		void* __value = &v;
 		float* result = (float*)il2cpp::invoke(XorStr("ACTk.Runtime"),
@@ -90,7 +90,7 @@ namespace Cheat
 	};
 
 	using obscured_int = generic_item<0xA>;
-	auto GetObscuredInt = [](int v)->obscured_int
+	inline auto GetObscuredInt = [](int v)->obscured_int
 	{
 		void* __value = &v;
 		obscured_int* result = (obscured_int*)il2cpp::invoke(XorStr("ACTk.Runtime"),
@@ -103,7 +103,7 @@ namespace Cheat
 			nullptr);
 		return *result;
 	};
-	auto GetIntFromOI = [](obscured_int v)->int
+	inline auto GetIntFromOI = [](obscured_int v)->int
 	{
 		void* __value = &v;
 		int* result = (int*)il2cpp::invoke(XorStr("ACTk.Runtime"),
@@ -118,7 +118,7 @@ namespace Cheat
 	};		// SOME HELPER FUNCS
 
 	using obsecured_bool = generic_item<0xA>;
-	auto GetObsucredBool = [](bool v)->obsecured_bool
+	inline auto GetObsucredBool = [](bool v)->obsecured_bool
 	{
 		void* __value = &v;
 		obsecured_bool* result = (obsecured_bool*)il2cpp::invoke(XorStr("ACTk.Runtime"),
@@ -131,7 +131,7 @@ namespace Cheat
 			nullptr);
 		return *result;
 	};
-	auto GetBoolFromOB = [](obsecured_bool v)->bool
+	inline auto GetBoolFromOB = [](obsecured_bool v)->bool
 	{
 		void* __value = &v;
 		bool* result = (bool*)il2cpp::invoke(XorStr("ACTk.Runtime"),
