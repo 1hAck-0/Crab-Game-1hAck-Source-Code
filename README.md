@@ -3,4 +3,4 @@
 
 **Make sure to star this repository if you find it helpful in anyway! Thanks!**
 
-Discord Server: https://discord.gg/Wua44KTJvd
+Discord Server: https://discord.gg/j87B5WsWQQ
