@@ -4,4 +4,4 @@
 
 Be aware that this project is **very poorly written, violating many programming guidelines and principals.** I started this project very long ago with no big prior experience of programming.
 
-Discord Server: https://discord.gg/j87B5WsWQQ
+Discord Server: https://discord.gg/1hack
